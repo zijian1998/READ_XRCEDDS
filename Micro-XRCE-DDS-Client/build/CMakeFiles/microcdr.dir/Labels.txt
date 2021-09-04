@@ -1,0 +1,13 @@
+# Target labels
+ microcdr
+# Source files and their labels
+/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr
+/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr-complete.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-install.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-download.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-update.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-patch.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-configure.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-build.rule

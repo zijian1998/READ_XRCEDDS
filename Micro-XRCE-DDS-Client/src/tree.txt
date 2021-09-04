@@ -1,0 +1,83 @@
+.
+├── c
+│   ├── core
+│   │   ├── log
+│   │   │   ├── log.c
+│   │   │   └── log_internal.h
+│   │   ├── serialization
+│   │   │   ├── xrce_header.c
+│   │   │   ├── xrce_header_internal.h
+│   │   │   ├── xrce_subheader.c
+│   │   │   ├── xrce_subheader_internal.h
+│   │   │   └── xrce_types.c
+│   │   └── session
+│   │       ├── common_create_entities.c
+│   │       ├── common_create_entities_internal.h
+│   │       ├── create_entities_ref.c
+│   │       ├── create_entities_xml.c
+│   │       ├── object_id.c
+│   │       ├── read_access.c
+│   │       ├── session.c
+│   │       ├── session_info.c
+│   │       ├── session_info_internal.h
+│   │       ├── session_internal.h
+│   │       ├── stream
+│   │       │   ├── common_reliable_stream_internal.h
+│   │       │   ├── input_best_effort_stream.c
+│   │       │   ├── input_best_effort_stream_internal.h
+│   │       │   ├── input_reliable_stream.c
+│   │       │   ├── input_reliable_stream_internal.h
+│   │       │   ├── output_best_effort_stream.c
+│   │       │   ├── output_best_effort_stream_internal.h
+│   │       │   ├── output_reliable_stream.c
+│   │       │   ├── output_reliable_stream_internal.h
+│   │       │   ├── seq_num.c
+│   │       │   ├── seq_num_internal.h
+│   │       │   ├── stream_id.c
+│   │       │   ├── stream_storage.c
+│   │       │   └── stream_storage_internal.h
+│   │       ├── submessage.c
+│   │       ├── submessage_internal.h
+│   │       └── write_access.c
+│   ├── profile
+│   │   ├── discovery
+│   │   │   ├── discovery.c
+│   │   │   └── transport
+│   │   │       ├── udp_transport_datagram_freertos_plus_tcp.c
+│   │   │       ├── udp_transport_datagram_internal.h
+│   │   │       ├── udp_transport_datagram_posix.c
+│   │   │       ├── udp_transport_datagram_posix_nopoll.c
+│   │   │       └── udp_transport_datagram_windows.c
+│   │   └── transport
+│   │       ├── custom
+│   │       │   └── custom_transport.c
+│   │       ├── ip
+│   │       │   ├── ip_freertos_plus_tcp.c
+│   │       │   ├── ip_posix.c
+│   │       │   ├── ip_windows.c
+│   │       │   ├── tcp
+│   │       │   │   ├── tcp_transport.c
+│   │       │   │   ├── tcp_transport_freertos_plus_tcp.c
+│   │       │   │   ├── tcp_transport_internal.h
+│   │       │   │   ├── tcp_transport_posix.c
+│   │       │   │   └── tcp_transport_windows.c
+│   │       │   └── udp
+│   │       │       ├── udp_transport.c
+│   │       │       ├── udp_transport_freertos_plus_tcp.c
+│   │       │       ├── udp_transport_internal.h
+│   │       │       ├── udp_transport_posix.c
+│   │       │       ├── udp_transport_posix_nopoll.c
+│   │       │       └── udp_transport_windows.c
+│   │       ├── serial
+│   │       │   ├── serial_transport.c
+│   │       │   └── serial_transport_posix.c
+│   │       └── stream_framing
+│   │           ├── stream_framing_protocol.c
+│   │           └── stream_framing_protocol.h
+│   └── util
+│       ├── ping.c
+│       ├── time.c
+│       └── time_internal.h
+└── tree.txt
+
+17 directories, 63 files

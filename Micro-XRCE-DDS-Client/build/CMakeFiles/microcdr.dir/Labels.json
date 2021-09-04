@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/CMakeFiles/microcdr-complete.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-install.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-download.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-update.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-patch.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-configure.rule"
+		},
+		{
+			"file" : "/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-stamp/microcdr-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microcdr"
+		],
+		"name" : "microcdr"
+	}
+}

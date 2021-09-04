@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "ping.h": "c",
+        "time.h": "c",
+        "udp_transport_freertos_plus_tcp.h": "c",
+        "udp_transport_internal.h": "c",
+        "bitset": "cpp",
+        "functional": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "string_view": "c",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "memory_resource": "cpp",
+        "client.h": "c",
+        "stdio.h": "c"
+    }
+}

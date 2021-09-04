@@ -1,0 +1,8 @@
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/lib/libmicrocdr.a
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/include/ucdr/visibility.h
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/include/ucdr/microcdr.h
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/include/ucdr/config.h
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/share/microcdr/cmake/microcdrTargets.cmake
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/share/microcdr/cmake/microcdrConfig.cmake
+/home/wzj/Micro-XRCE-DDS-Client/build/temp_install/microcdr-1.2.1/share/microcdr/cmake/microcdrConfigVersion.cmake

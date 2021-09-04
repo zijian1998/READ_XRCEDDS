@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/CMakeFiles/ucdr
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/wzj/Micro-XRCE-DDS-Client/build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule

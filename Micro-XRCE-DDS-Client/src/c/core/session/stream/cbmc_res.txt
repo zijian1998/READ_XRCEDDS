@@ -1,0 +1,621 @@
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing output_reliable_stream.c
+Converting
+Type-checking output_reliable_stream
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+size of program expression: 184 steps
+simple slicing removed 16 assignments
+Generated 53 VCC(s), 53 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 56698 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2638 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2639 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2639 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2639 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2639 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2639 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 2405 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+19659 variables, 1334 clauses
+SAT checker inconsistent: instance is UNSATISFIABLE
+Runtime decision procedure: 0.0745005s
+
+** Results:
+[uxr_init_output_reliable_stream.pointer_dereference.1] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.2] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.4] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.7] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.8] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.9] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.10] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.11] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.13] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.14] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.15] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.16] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.17] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.18] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.20] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.21] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.22] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.23] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.24] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.25] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.26] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.27] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_init_output_reliable_stream.pointer_dereference.28] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.1] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.2] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.4] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.7] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.8] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.9] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.10] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.11] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.12] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.13] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.14] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.15] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.16] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.17] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.18] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.19] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.20] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.21] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.22] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.23] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.24] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.25] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.26] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.27] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.28] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.29] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.30] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.31] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.32] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.33] dereference failure: pointer NULL in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.34] dereference failure: pointer invalid in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.35] dereference failure: deallocated dynamic object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.36] dereference failure: dead object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.37] dereference failure: pointer outside dynamic object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.38] dereference failure: pointer outside object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.39] dereference failure: invalid integer address in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.40] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.41] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.42] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.43] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.44] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.45] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.46] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.47] dereference failure: pointer NULL in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.48] dereference failure: pointer invalid in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.49] dereference failure: deallocated dynamic object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.50] dereference failure: dead object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.51] dereference failure: pointer outside dynamic object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.52] dereference failure: pointer outside object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_reset_output_reliable_stream.pointer_dereference.53] dereference failure: invalid integer address in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.8] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.9] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.10] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.11] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.13] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.14] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.15] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.16] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.17] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.18] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.19] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.20] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.21] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.22] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.23] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.24] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.25] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.26] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.27] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.28] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.29] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.30] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.31] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.32] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.33] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.34] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.35] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.36] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.37] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.38] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.39] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.40] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.41] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.42] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.43] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.44] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.45] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.46] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.47] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.48] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.49] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.50] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.51] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.52] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.53] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.54] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.55] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.56] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.57] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.58] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.59] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.60] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.61] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.62] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.63] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.64] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.65] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.66] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.67] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.68] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.69] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.70] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.71] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.72] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.73] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.74] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.75] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.76] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.77] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.78] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.79] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.80] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.81] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_reliable_buffer_to_write.pointer_dereference.82] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.8] dereference failure: pointer NULL in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.9] dereference failure: pointer invalid in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.10] dereference failure: deallocated dynamic object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.11] dereference failure: dead object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.13] dereference failure: pointer outside object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.14] dereference failure: invalid integer address in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.15] dereference failure: pointer NULL in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.16] dereference failure: pointer invalid in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.17] dereference failure: deallocated dynamic object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.18] dereference failure: dead object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.20] dereference failure: pointer outside object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.21] dereference failure: invalid integer address in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.22] dereference failure: pointer NULL in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.23] dereference failure: pointer invalid in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.24] dereference failure: deallocated dynamic object in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.25] dereference failure: dead object in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.26] dereference failure: pointer outside dynamic object bounds in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.27] dereference failure: pointer outside object bounds in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.28] dereference failure: invalid integer address in *buffer: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.29] dereference failure: pointer NULL in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.30] dereference failure: pointer invalid in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.31] dereference failure: deallocated dynamic object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.32] dereference failure: dead object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.33] dereference failure: pointer outside dynamic object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.34] dereference failure: pointer outside object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.35] dereference failure: invalid integer address in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.36] dereference failure: pointer NULL in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.37] dereference failure: pointer invalid in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.38] dereference failure: deallocated dynamic object in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.39] dereference failure: dead object in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.40] dereference failure: pointer outside dynamic object bounds in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.41] dereference failure: pointer outside object bounds in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.42] dereference failure: invalid integer address in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.43] dereference failure: pointer NULL in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.44] dereference failure: pointer invalid in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.45] dereference failure: deallocated dynamic object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.46] dereference failure: dead object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.47] dereference failure: pointer outside dynamic object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.48] dereference failure: pointer outside object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.49] dereference failure: invalid integer address in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.50] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.51] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.52] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.53] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.54] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.55] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.56] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.57] dereference failure: pointer NULL in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.58] dereference failure: pointer invalid in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.59] dereference failure: deallocated dynamic object in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.60] dereference failure: dead object in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.61] dereference failure: pointer outside dynamic object bounds in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.62] dereference failure: pointer outside object bounds in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.63] dereference failure: invalid integer address in *length: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.64] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.65] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.66] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.67] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.68] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.69] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.70] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.71] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.72] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.73] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.74] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.75] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.76] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.77] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.78] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.79] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.80] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.81] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.82] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.83] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.84] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.85] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.86] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.87] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.88] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.89] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.90] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.91] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.92] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.93] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.94] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.95] dereference failure: pointer NULL in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.96] dereference failure: pointer invalid in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.97] dereference failure: deallocated dynamic object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.98] dereference failure: dead object in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.99] dereference failure: pointer outside dynamic object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.100] dereference failure: pointer outside object bounds in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.101] dereference failure: invalid integer address in *seq_num: SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.102] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.103] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.104] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.105] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.106] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.107] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.108] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.109] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.110] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.111] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.112] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.113] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.114] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.115] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.116] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.117] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_prepare_next_reliable_buffer_to_send.pointer_dereference.118] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)26ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.8] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.9] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.10] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.11] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.12] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.13] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.14] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.15] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.16] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.17] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.18] dereference failure: pointer NULL in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.20] dereference failure: pointer outside object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.21] dereference failure: invalid integer address in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.22] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.23] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.24] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.25] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.26] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.27] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.28] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.29] dereference failure: pointer NULL in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.30] dereference failure: pointer invalid in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.31] dereference failure: deallocated dynamic object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.32] dereference failure: dead object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.33] dereference failure: pointer outside dynamic object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.34] dereference failure: pointer outside object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.35] dereference failure: invalid integer address in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.36] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.37] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.38] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.39] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.40] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.41] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.42] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.43] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.44] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.45] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.46] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.47] dereference failure: pointer NULL in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.48] dereference failure: pointer invalid in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): SUCCESS
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.49] dereference failure: deallocated dynamic object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.50] dereference failure: dead object in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.51] dereference failure: pointer outside dynamic object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.52] dereference failure: pointer outside object bounds in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_update_output_stream_heartbeat_timestamp.pointer_dereference.53] dereference failure: invalid integer address in *((int64_t *)(char *)((char *)stream + (signed long int)32ul)): FAILURE
+[uxr_begin_output_nack_buffer_it.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_begin_output_nack_buffer_it.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.1] dereference failure: pointer NULL in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.2] dereference failure: pointer invalid in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.3] dereference failure: deallocated dynamic object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.4] dereference failure: dead object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.6] dereference failure: pointer outside object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.7] dereference failure: invalid integer address in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.8] dereference failure: pointer NULL in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.9] dereference failure: pointer invalid in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.10] dereference failure: deallocated dynamic object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.11] dereference failure: dead object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.13] dereference failure: pointer outside object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.14] dereference failure: invalid integer address in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.15] dereference failure: pointer NULL in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.16] dereference failure: pointer invalid in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.17] dereference failure: deallocated dynamic object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.18] dereference failure: dead object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.20] dereference failure: pointer outside object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.21] dereference failure: invalid integer address in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.22] dereference failure: pointer NULL in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.23] dereference failure: pointer invalid in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.24] dereference failure: deallocated dynamic object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.25] dereference failure: dead object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.26] dereference failure: pointer outside dynamic object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.27] dereference failure: pointer outside object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.28] dereference failure: invalid integer address in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.29] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.30] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.31] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.32] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.33] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.34] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.35] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.36] dereference failure: pointer NULL in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.37] dereference failure: pointer invalid in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.38] dereference failure: deallocated dynamic object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.39] dereference failure: dead object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.40] dereference failure: pointer outside dynamic object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.41] dereference failure: pointer outside object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.42] dereference failure: invalid integer address in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.43] dereference failure: pointer NULL in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.44] dereference failure: pointer invalid in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.45] dereference failure: deallocated dynamic object in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.46] dereference failure: dead object in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.47] dereference failure: pointer outside dynamic object bounds in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.48] dereference failure: pointer outside object bounds in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.49] dereference failure: invalid integer address in *buffer: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.50] dereference failure: pointer NULL in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.51] dereference failure: pointer invalid in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.52] dereference failure: deallocated dynamic object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.53] dereference failure: dead object in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.54] dereference failure: pointer outside dynamic object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.55] dereference failure: pointer outside object bounds in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.56] dereference failure: invalid integer address in *seq_num_it: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.57] dereference failure: pointer NULL in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.58] dereference failure: pointer invalid in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.59] dereference failure: deallocated dynamic object in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.60] dereference failure: dead object in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.61] dereference failure: pointer outside dynamic object bounds in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.62] dereference failure: pointer outside object bounds in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.63] dereference failure: invalid integer address in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.64] dereference failure: pointer NULL in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.65] dereference failure: pointer invalid in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.66] dereference failure: deallocated dynamic object in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.67] dereference failure: dead object in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.68] dereference failure: pointer outside dynamic object bounds in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.69] dereference failure: pointer outside object bounds in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.70] dereference failure: invalid integer address in *length: SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.71] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.72] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.73] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.74] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.75] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.76] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.77] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.78] dereference failure: pointer NULL in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.79] dereference failure: pointer invalid in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.80] dereference failure: deallocated dynamic object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.81] dereference failure: dead object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.82] dereference failure: pointer outside dynamic object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.83] dereference failure: pointer outside object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_next_reliable_nack_buffer_to_send.pointer_dereference.84] dereference failure: invalid integer address in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.8] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.9] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.10] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.11] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.13] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.14] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.15] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.16] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.17] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.18] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.20] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.21] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.22] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.23] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.24] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.25] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.26] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.27] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.28] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.29] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.30] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.31] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.32] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.33] dereference failure: pointer NULL in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.34] dereference failure: pointer invalid in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.35] dereference failure: deallocated dynamic object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.36] dereference failure: dead object in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.37] dereference failure: pointer outside dynamic object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.38] dereference failure: pointer outside object bounds in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.39] dereference failure: invalid integer address in *((_Bool *)(char *)((char *)stream + (signed long int)41ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.40] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.41] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.42] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.43] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.44] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.45] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_process_acknack.pointer_dereference.46] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)40ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.1] dereference failure: pointer NULL in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.2] dereference failure: pointer invalid in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.4] dereference failure: dead object in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.7] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)30ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.8] dereference failure: pointer outside dynamic object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.9] dereference failure: pointer outside object bounds in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[uxr_is_output_up_to_date.pointer_dereference.10] dereference failure: invalid integer address in *((uxrSeqNum *)(char *)((char *)stream + (signed long int)28ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.1] dereference failure: pointer NULL in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.2] dereference failure: pointer invalid in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.4] dereference failure: dead object in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.7] dereference failure: invalid integer address in *((uint8_t **)(char *)((char *)ub + (signed long int)0ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.8] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.9] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.10] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.11] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.13] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.14] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.15] dereference failure: pointer NULL in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.16] dereference failure: pointer invalid in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.17] dereference failure: deallocated dynamic object in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.18] dereference failure: dead object in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.19] dereference failure: pointer outside dynamic object bounds in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.20] dereference failure: pointer outside object bounds in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[on_full_output_buffer.pointer_dereference.21] dereference failure: invalid integer address in *((size_t *)(char *)((char *)ub + (signed long int)32ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.1] dereference failure: pointer NULL in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.2] dereference failure: pointer invalid in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.4] dereference failure: dead object in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.7] dereference failure: invalid integer address in *((uxrReliableStream *)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.8] dereference failure: pointer NULL in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.9] dereference failure: pointer invalid in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.10] dereference failure: deallocated dynamic object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.11] dereference failure: dead object in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.12] dereference failure: pointer outside dynamic object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.13] dereference failure: pointer outside object bounds in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[get_available_free_slots.pointer_dereference.14] dereference failure: invalid integer address in *((uint8_t *)(char *)((char *)stream + (signed long int)24ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.1] dereference failure: pointer NULL in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.2] dereference failure: pointer invalid in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.4] dereference failure: dead object in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.7] dereference failure: invalid integer address in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.8] dereference failure: pointer NULL in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.9] dereference failure: pointer outside dynamic object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.10] dereference failure: pointer outside object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.11] dereference failure: invalid integer address in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.12] dereference failure: pointer NULL in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.13] dereference failure: pointer outside dynamic object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.14] dereference failure: pointer outside object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer.pointer_dereference.15] dereference failure: invalid integer address in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.1] dereference failure: pointer NULL in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.2] dereference failure: pointer invalid in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.3] dereference failure: deallocated dynamic object in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.4] dereference failure: dead object in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.6] dereference failure: pointer outside object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.7] dereference failure: invalid integer address in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.8] dereference failure: pointer NULL in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.9] dereference failure: pointer outside dynamic object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.10] dereference failure: pointer outside object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_capacity.pointer_dereference.11] dereference failure: invalid integer address in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.1] dereference failure: pointer NULL in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.2] dereference failure: pointer invalid in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.4] dereference failure: dead object in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.7] dereference failure: invalid integer address in *((uint8_t **)(char *)((char *)stream + (signed long int)0ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.8] dereference failure: pointer NULL in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.9] dereference failure: pointer outside dynamic object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.10] dereference failure: pointer outside object bounds in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.11] dereference failure: invalid integer address in *((size_t *)(char *)((char *)stream + (signed long int)8ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.12] dereference failure: pointer NULL in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.13] dereference failure: pointer outside dynamic object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.14] dereference failure: pointer outside object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_history_position.pointer_dereference.15] dereference failure: invalid integer address in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.1] dereference failure: pointer NULL in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.2] dereference failure: pointer invalid in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.4] dereference failure: dead object in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_get_reliable_buffer_size.pointer_dereference.7] dereference failure: invalid integer address in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.1] dereference failure: pointer NULL in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.2] dereference failure: pointer invalid in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.3] dereference failure: deallocated dynamic object in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.4] dereference failure: dead object in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.5] dereference failure: pointer outside dynamic object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.6] dereference failure: pointer outside object bounds in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+[uxr_set_reliable_buffer_size.pointer_dereference.7] dereference failure: invalid integer address in *((uint16_t *)(char *)((char *)stream + (signed long int)16ul)): SUCCESS
+
+** 47 of 571 failed (9 iterations)
+VERIFICATION FAILED
