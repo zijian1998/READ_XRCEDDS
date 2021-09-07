@@ -69,6 +69,7 @@ bool Server<EndPoint>::start()
     output_scheduler_.init();
   
     /* Thread initialization. */
+    // 初始化五个线程：错误处理、接受者、发送者、处理器、心跳
     running_cond_ = true;
     error_handler_thread_ = std::thread(&Server::error_handler_loop, this);
     receiver_thread_ = std::thread(&Server::receiver_loop, this);
@@ -81,7 +82,7 @@ bool Server<EndPoint>::start()
 
 template<typename EndPoint>
 bool Server<EndPoint>::stop()
-{
+{ 
     std::lock_guard<std::mutex> lock(mtx_);
     running_cond_ = false;
 
@@ -248,7 +249,9 @@ void Server<EndPoint>::error_handler_loop()
 {
     while (running_cond_)
     {
+        // 对错误互斥量加锁
         std::unique_lock<std::mutex> lock(error_mtx_);
+        // 当running_cond_为真且transport_rc为服务器错误时)解锁并进入等待，否则直接往下走
         error_cv_.wait(lock, [&](){ return !running_cond_ || (transport_rc_ == TransportRc::server_error); });
         if (running_cond_)
         {
@@ -256,7 +259,7 @@ void Server<EndPoint>::error_handler_loop()
             while (running_cond_ && !error_handled)
             {
                 error_handled = handle_error(transport_rc_);
-                std::this_thread::sleep_for(std::chrono::milliseconds(500));
+                std::this_thread::sleep_for(::chrono::milliseconds(500));
             }
             transport_rc_ = TransportRc::ok;
         }

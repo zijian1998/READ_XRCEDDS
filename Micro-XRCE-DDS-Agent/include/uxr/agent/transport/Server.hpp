@@ -30,7 +30,7 @@ namespace uxr {
 template<typename EndPoint>
 class Processor;
 // 作为父类
-te mplate<typename EndPoint>
+template<typename EndPoint>
 class Server : public Agent, public SessionManager<EndPoint>
 {
     friend class Processor<EndPoint>;
@@ -100,7 +100,7 @@ private:
     std::mutex mtx_;                // 互斥量
     std::thread receiver_thread_;   // 接受者线程
     std::thread sender_thread_;     // 发送者线程
-    std::thread processing_thread_; // 
+    std::thread processing_thread_; // 处理器线程
     std::thread heartbeat_thread_;  // 心跳线程
     std::thread error_handler_thread_;  // 错误管理 线程
     std::atomic<bool> running_cond_;    // 原子变量 运行条件  std::atomic实例化全特化定义一个原子类型，对原子对象的访问可以建立线程间的同步

@@ -47,7 +47,7 @@ ProxyClient::ProxyClient(
 {
     switch (middleware_kind)
     {
-        // 未选择中间件种类
+        // 未选择中间件种类 
         case Middleware::Kind::NONE:
         {
             UXR_AGENT_LOG_CRITICAL(

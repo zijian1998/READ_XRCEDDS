@@ -245,10 +245,12 @@ int main(int argc, char** argv)
 
         int n_signal = 0;
         sigset_t signals;
+        // 阻塞到n_signal被挂起
         sigwait(&signals, &n_signal);
 
         /**
          * Stop agent, and exit.
+         * 在此函数中，将所有的线程加入
          */
         custom_agent.stop();
         return 0;
