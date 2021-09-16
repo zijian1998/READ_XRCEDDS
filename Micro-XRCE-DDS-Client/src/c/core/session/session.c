@@ -577,6 +577,7 @@ bool  listen_message_reliably(
         int poll_ms)
 {
     bool received = false;
+    // 计时器清零重新进行倒数
     int32_t poll = (poll_ms >= 0) ? poll_ms : INT32_MAX;
     do
     {
